@@ -1,5 +1,5 @@
 import datetime
-from openpyxl import Workbook, load_workbook
+from openpyxl import Workbook, load_workbook # type: ignore
 
 # Función para cargar los datos de los remedios desde un archivo Excel
 def cargar_datos_excel():
